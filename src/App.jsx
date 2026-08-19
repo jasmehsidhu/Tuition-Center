@@ -1,0 +1,165 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import heroImg from './assets/hero.png'
+import './App.css'
+import Logo from './assets/logo.png'
+import mimg from './assets/mimg.png'
+import i1 from './assets/i1.png'
+import i2 from './assets/i2.png'
+import i3 from './assets/i3.png'
+import priya from './assets/priya.png'
+
+function App() {
+var [demo,setdemo]=useState(true)
+
+  return (
+    <>
+    <section id='navbar'>
+      <img id='logo' src={Logo}></img>
+      <button id='demo' onClick={()=>{setdemo(!demo)}}>Book a Demo</button>
+    </section>
+    {!demo?<><section id='main'>
+      <h1 id='bold'>
+        Learn Today,<br></br> Lead Tomorrow
+      </h1>
+      <p id='subhead'>Personalized tutoring from grade 1 to 12 to halp every student unlock their potential</p>
+      <div id='subs'>
+        <div id='n'>
+          <img src={i1}></img>
+          <h4 id='side'>Expert Tutor</h4>
+        </div>
+         <div id='n'>
+          <img src={i2}></img>
+          <h4 id='side'>Customized learning</h4>
+        </div>
+         <div id='n'>
+          <img src={i3}></img>
+          <h4 id='side'>Guaranteed results</h4>
+        </div>
+      </div>
+      <button onClick={()=>{setdemo(!demo)}} id='book'>Book a Demo Class➜</button>
+    </section>
+    <section id='services'>
+      <h1 id='stitle'>Our Services</h1>
+      <h1 id='tagline'>Personalized learning for every student</h1>
+      <p id='sdis'>We offer a Wide range of services designed to help students build confidence, improve grades and acheive their academic goals</p>
+     <div id='slist'>
+      <div id='service'>
+<div id='contain'>
+          <i class="fa-solid fa-book" style={{color: 'rgb(20, 46, 98)'}}></i>
+  </div>     
+      <h2 id='st'>Exam Preperation</h2>
+<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+   </div>
+   <div id='service'>
+<div id='contain'>
+          <i class="fa-solid fa-graduation-cap" style={{color: 'rgb(20, 46, 98)'}}></i>
+  </div>     
+      <h2 id='st'>Exam Preperation</h2>
+<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+   </div>
+   <div id='service'>
+<div id='contain'>
+          <i class="fa-solid fa-people-group" style={{color: 'rgb(20, 46, 98)'}}></i>
+  </div>     
+      <h2 id='st'>One to One Classes</h2>
+<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+   </div>
+     </div>
+          <div id='slist'>
+      <div id='service'>
+<div id='contain'>
+          <i class="fa-solid fa-laptop" style={{color: 'rgb(20, 46, 98)'}}></i>
+  </div>     
+      <h2 id='st'>Online tutoring</h2>
+<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+   </div>
+   <div id='service'>
+<div id='contain'>
+          <i class="fa-solid fa-people-group" style={{color: 'rgb(20, 46, 98)'}}></i>
+  </div>     
+      <h2 id='st'>Homework Help</h2>
+<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+   </div>
+   <div id='service'>
+<div id='contain'>
+          <i class="fa-solid fa-chart-simple" style={{color: 'rgb(20, 46, 98)'}}></i>
+  </div>     
+      <h2 id='st'>Academic Coaching</h2>
+<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+   </div>
+     </div>
+    </section>
+    <section id='testimonials'>
+       <h1 id='stitle'>Testimonials</h1>
+      <h1 id='tagline'>What other Students & Parents Say</h1>
+      <div id='tlist'>
+        <div id='test'>
+          <h1>''</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div id='lower'>
+            <img src={priya}></img>
+            <h1>Priya K.</h1>
+          </div>
+        </div>
+        <div id='test'>
+          <h1>''</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div id='lower'>
+            <img src={priya}></img>
+            <h1>Priya K.</h1>
+          </div>
+        </div>
+        <div id='test'>
+          <h1>''</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div id='lower'>
+            <img src={priya}></img>
+            <h1>Priya K.</h1>
+          </div>
+        </div>
+      </div>
+    </section></>:
+    <>
+    <section id='contact'>
+      <div id='left'>
+        <h1 id='ctop'>Contact Us</h1>
+        <h1 id='tags'>We're here to help!</h1>
+        <hr></hr>
+        <p>Have questions or want to book a free class?<br></br>
+          Get in touch with us today!
+        </p>
+  <div id='conl'>
+          <div id='cons'>
+          <i className="fa-solid fa-phone" style={{color: 'rgb(20, 46, 98)'}}></i>
+          <p>+1989234774</p>
+        </div>
+         <div id='cons'>
+          <i className="fa-solid fa-envelope" style={{color: 'rgb(20, 46, 98)'}}></i>
+          <p>tution@gmail.com</p>
+        </div>
+         <div id='cons'>
+          <i className="fa-solid fa-location-dot" style={{color: 'rgb(20, 46, 98)'}}></i>
+          <p>110 east malvia nagar, Delhi</p>
+        </div>
+         <div id='cons'>
+          <i className="fa-solid fa-clock" style={{color: 'rgb(20, 46, 98)'}}></i>
+          <p>Mon - Fri : 3:00PM to 5:00PM </p>
+        </div>
+  </div>
+
+      </div>
+       <div id='right'>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOCzA2M5HifDT3ZjMROX97LVo47voaU-7by8s7x6viXKLPPw/viewform?embedded=true" width="640" height="428" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+    </section>
+    <section id='footer'></section>
+    </>
+    }
+
+    </>
+  )
+}
+
+export default App
