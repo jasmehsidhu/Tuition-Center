@@ -11,7 +11,7 @@ import i3 from './assets/i3.png'
 import priya from './assets/priya.png'
 
 function App() {
-var [demo,setdemo]=useState(true)
+var [demo,setdemo]=useState(false)
 
   return (
     <>
