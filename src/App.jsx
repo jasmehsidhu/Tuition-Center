@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Logo from './assets/logo.png'
+import Logo1 from './assets/logo1.png'
+import Logo2 from './assets/logo2.png'
 import mimg from './assets/mimg.png'
 import i1 from './assets/i1.png'
 import i2 from './assets/i2.png'
@@ -16,7 +17,7 @@ var [demo,setdemo]=useState(false)
   return (
     <>
     <section id='navbar'>
-      <img id='logo' src={Logo}></img>
+      <img id='logo' src={Logo1}></img>
       <button id='demo' onClick={()=>{setdemo(!demo)}}>Book a Demo</button>
     </section>
     {!demo?<><section id='main'>
@@ -42,7 +43,7 @@ var [demo,setdemo]=useState(false)
     </section>
     <section id='services'>
       <h1 id='stitle'>Our Services</h1>
-      <h1 id='tagline'>Personalized learning for every student</h1>
+      <h1 id='tagl'>Personalized learning for every student</h1>
       <p id='sdis'>We offer a Wide range of services designed to help students build confidence, improve grades and acheive their academic goals</p>
      <div id='slist'>
       <div id='service'>
@@ -93,7 +94,7 @@ var [demo,setdemo]=useState(false)
     </section>
     <section id='testimonials'>
        <h1 id='stitle'>Testimonials</h1>
-      <h1 id='tagline'>What other Students & Parents Say</h1>
+      <h1 id='tagl2'>What other Students & Parents Say</h1>
       <div id='tlist'>
         <div id='test'>
           <h1>''</h1>
@@ -133,11 +134,11 @@ var [demo,setdemo]=useState(false)
   <div id='conl'>
           <div id='cons'>
           <i className="fa-solid fa-phone" style={{color: 'rgb(20, 46, 98)'}}></i>
-          <p>+1989234774</p>
+          <p>+91 8141167939</p>
         </div>
          <div id='cons'>
           <i className="fa-solid fa-envelope" style={{color: 'rgb(20, 46, 98)'}}></i>
-          <p>tution@gmail.com</p>
+          <p>abhishekrajveer0011@gmail.com</p>
         </div>
          <div id='cons'>
           <i className="fa-solid fa-location-dot" style={{color: 'rgb(20, 46, 98)'}}></i>
@@ -151,15 +152,24 @@ var [demo,setdemo]=useState(false)
 
       </div>
        <div id='right'>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOCzA2M5HifDT3ZjMROX97LVo47voaU-7by8s7x6viXKLPPw/viewform?embedded=true" width="640" height="428" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf14iDzYi0vb7sI0okUVaeDvniT6jVjASjij9aONzs7vVuK1w/viewform?embedded=true" width="640" height="428" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  </div>
     </section>
-    <section id='footer'></section>
     </>
     }
-
+<section id='mas'>
+    <section id='footer'>
+      <div id='links'>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <p> @ 2026 Bright Future Tuition Center. All rights reserved</p>
+    </section>
+    <h1 id='love'>Made with <i class="fa-solid fa-heart" style={{color: 'rgb(255, 1, 1)'}}></i> by <a href='https://jasmehsidhu.onrender.com/'> Jasmeh </a></h1>
+</section>
     </>
   )
 }
 
 export default App
+
