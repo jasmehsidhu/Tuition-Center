@@ -10,6 +10,7 @@ import i1 from './assets/i1.png'
 import i2 from './assets/i2.png'
 import i3 from './assets/i3.png'
 import priya from './assets/priya.png'
+import jasmeh from './assets/main.jpg'
 
 function App() {
 var [demo,setdemo]=useState(false)
@@ -18,7 +19,7 @@ var [demo,setdemo]=useState(false)
     <>
     <section id='navbar'>
       <img id='logo' src={Logo1}></img>
-      <button id='demo' onClick={()=>{setdemo(!demo)}}>Book a Demo</button>
+      <button id='demo' onClick={()=>{setdemo(true)}}>Book a Demo</button>
     </section>
     {!demo?<><section id='main'>
       <h1 id='bold'>
@@ -39,7 +40,7 @@ var [demo,setdemo]=useState(false)
           <h4 id='side'>Guaranteed results</h4>
         </div>
       </div>
-      <button onClick={()=>{setdemo(!demo)}} id='book'>Book a Demo Class➜</button>
+      <button onClick={()=>{setdemo(true)}} id='book'>Book a Demo Class➜</button>
     </section>
     <section id='services'>
       <h1 id='stitle'>Our Services</h1>
@@ -98,10 +99,10 @@ var [demo,setdemo]=useState(false)
       <div id='tlist'>
         <div id='test'>
           <h1>''</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Mr. Abhishek has been teaching me math since Grade 9, and he is an excellent teacher. He explains concepts clearly, is patient, supportive, and always makes difficult topics easier to understand.</p>
           <div id='lower'>
-            <img src={priya}></img>
-            <h1>Priya K.</h1>
+            <img src={jasmeh}></img>
+            <h1>Jasmeh S.</h1>
           </div>
         </div>
         <div id='test'>
@@ -123,7 +124,9 @@ var [demo,setdemo]=useState(false)
       </div>
     </section></>:
     <>
+    <button id='back' onClick={()=>{setdemo(!demo)}}><i class="fa-solid fa-arrow-left fa-rotate-by" style={{color: 'rgb(20, 46, 98)'}}></i>Back</button>
     <section id='contact'>
+      
       <div id='left'>
         <h1 id='ctop'>Contact Us</h1>
         <h1 id='tags'>We're here to help!</h1>
@@ -172,4 +175,3 @@ var [demo,setdemo]=useState(false)
 }
 
 export default App
-
