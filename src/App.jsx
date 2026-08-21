@@ -51,22 +51,22 @@ var [demo,setdemo]=useState(false)
 <div id='contain'>
           <i class="fa-solid fa-book" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
-      <h2 id='st'>Exam Preperation</h2>
-<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+      <h2 id='st'>Subject Tutoring</h2>
+<p>Math, Science, Social Science , English, French, Computer Science and more for grades 1 to 12 </p>
    </div>
    <div id='service'>
 <div id='contain'>
           <i class="fa-solid fa-graduation-cap" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
       <h2 id='st'>Exam Preperation</h2>
-<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+<p>Specialized tutoring for tests, finals, midterms &board exams </p>
    </div>
    <div id='service'>
 <div id='contain'>
           <i class="fa-solid fa-people-group" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
       <h2 id='st'>One to One Classes</h2>
-<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+<p>Personal attention to adress unique learning needs and goals</p>
    </div>
      </div>
           <div id='slist'>
@@ -75,21 +75,21 @@ var [demo,setdemo]=useState(false)
           <i class="fa-solid fa-laptop" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
       <h2 id='st'>Online tutoring</h2>
-<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+<p>Flexible online sessions from the confort of your home </p>
    </div>
    <div id='service'>
 <div id='contain'>
           <i class="fa-solid fa-people-group" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
       <h2 id='st'>Homework Help</h2>
-<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+<p>Get the help you need to complete assignments with confidence </p>
    </div>
    <div id='service'>
 <div id='contain'>
           <i class="fa-solid fa-chart-simple" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
       <h2 id='st'>Academic Coaching</h2>
-<p>Math, Science, Social Science and more for grades 1 to 12 </p>
+<p>Study skills, time management & strategies for long term success</p>
    </div>
      </div>
     </section>
