@@ -162,7 +162,7 @@ gap:30px
   padding:20px;
   transition: transform 0.5s ease;
   background:white;
-  width:400px;
+  width:350px;
   color:grey;
   border-radius: 10px;
   display: flex;
@@ -172,6 +172,7 @@ gap:30px
   height:40px;
   width:50px;
   margin-top: 10px;
+  border-radius: 50%;
 }
 #lower{
   display: flex;
@@ -277,6 +278,19 @@ padding:15px
   padding:0 10px 0 10px;
   color:#f4c402;
   text-decoration: none;
+}
+#back{
+  margin-left:20px;
+  margin-top: 20px;
+  height:40px;
+ width:100px;
+ background: none;
+ border:1px solid #142E62;
+ border-radius: 5px;
+ color:#142E62
+}
+#test>p{
+  font-size: 17px;
 }
 @media (max-width: 768px) {
   #tagl{
