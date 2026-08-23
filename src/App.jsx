@@ -96,6 +96,7 @@ var [demo,setdemo]=useState(false)
     <section id='testimonials'>
        <h1 id='stitle'>Testimonials</h1>
       <h1 id='tagl2'>What other Students & Parents Say</h1>
+      <hr></hr>
       <div id='tlist'>
         <div id='test'>
           <h1>''</h1>
@@ -145,11 +146,11 @@ var [demo,setdemo]=useState(false)
         </div>
          <div id='cons'>
           <i className="fa-solid fa-location-dot" style={{color: 'rgb(20, 46, 98)'}}></i>
-          <p>110 east malvia nagar, Delhi</p>
+          <p>110 Begampur Village, Malviya Nagar, New Delhi 110017</p>
         </div>
          <div id='cons'>
           <i className="fa-solid fa-clock" style={{color: 'rgb(20, 46, 98)'}}></i>
-          <p>Mon - Fri : 3:00PM to 5:00PM </p>
+          <p> 5:30 AM to 10:30 PM </p>
         </div>
   </div>
 
