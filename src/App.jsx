@@ -25,7 +25,7 @@ var [demo,setdemo]=useState(false)
       <h1 id='bold'>
         Learn Today,<br></br> Lead Tomorrow
       </h1>
-      <p id='subhead'>Personalized tutoring from grade 1 to 12 to halp every student unlock their potential</p>
+      <p id='subhead'>Personalized tutoring from grade 1 to 12 to halp every student unlock their potential in Malviya Nagar.</p>
       <div id='subs'>
         <div id='n'>
           <img src={i1}></img>
