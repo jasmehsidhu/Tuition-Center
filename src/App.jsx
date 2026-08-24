@@ -108,7 +108,7 @@ var [demo,setdemo]=useState(false)
         </div>
         <div id='test'>
           <h1>''</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>bhoram ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <div id='lower'>
             <img src={priya}></img>
             <h1>Priya K.</h1>
