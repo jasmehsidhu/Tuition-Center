@@ -129,7 +129,7 @@ var [demo,setdemo]=useState(false)
     <section id='contact'>
       
       <div id='left'>
-        <h1 id='ctop'>Contact Us</h1>
+        <h1 id='ctop'>Contact Maths2Maths</h1>
         <h1 id='tags'>We're here to help!</h1>
         <hr></hr>
         <p>Have questions or want to book a free class?<br></br>
