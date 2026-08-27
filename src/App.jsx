@@ -11,6 +11,7 @@ import i2 from './assets/i2.png'
 import i3 from './assets/i3.png'
 import priya from './assets/priya.png'
 import jasmeh from './assets/main.jpg'
+import np from './assets/np.png'
 
 function App() {
 var [demo,setdemo]=useState(false)
@@ -25,7 +26,7 @@ var [demo,setdemo]=useState(false)
       <h1 id='bold'>
         Learn Today,<br></br> Lead Tomorrow
       </h1>
-      <p id='subhead'>Personalized tutoring from grade 1 to 12 to help every student unlock their potential in Malviya Nagar.</p>
+      <p id='subhead'>Personalized tutoring from grade 1 to 12 to halp every student unlock their potential</p>
       <div id='subs'>
         <div id='n'>
           <img src={i1}></img>
@@ -45,28 +46,28 @@ var [demo,setdemo]=useState(false)
     <section id='services'>
       <h1 id='stitle'>Our Services</h1>
       <h1 id='tagl'>Personalized learning for every student</h1>
-      <p id='sdis'>We offer a Wide range of services designed to help students build confidence, improve grades and achieve their academic goals</p>
+      <p id='sdis'>We offer a Wide range of services designed to help students build confidence, improve grades and acheive their academic goals</p>
      <div id='slist'>
       <div id='service'>
 <div id='contain'>
           <i class="fa-solid fa-book" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
       <h2 id='st'>Subject Tutoring</h2>
-<p>Math, Science, Social Science, English, French, Computer Science and more for grades 1 to 12 </p>
+<p>Math, Science, Social Science , English, French, Computer Science and more for grades 1 to 12 </p>
    </div>
    <div id='service'>
 <div id='contain'>
           <i class="fa-solid fa-graduation-cap" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
-      <h2 id='st'>Exam Preparation</h2>
-<p>Specialized tutoring for tests, finals, midterms & board exams </p>
+      <h2 id='st'>Exam Preperation</h2>
+<p>Specialized tutoring for tests, finals, midterms &board exams </p>
    </div>
    <div id='service'>
 <div id='contain'>
           <i class="fa-solid fa-people-group" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
       <h2 id='st'>One to One Classes</h2>
-<p>Personal attention to address unique learning needs and goals</p>
+<p>Personal attention to adress unique learning needs and goals</p>
    </div>
      </div>
           <div id='slist'>
@@ -75,7 +76,7 @@ var [demo,setdemo]=useState(false)
           <i class="fa-solid fa-laptop" style={{color: 'rgb(20, 46, 98)'}}></i>
   </div>     
       <h2 id='st'>Online tutoring</h2>
-<p>Flexible online sessions from the comfort of your home </p>
+<p>Flexible online sessions from the confort of your home </p>
    </div>
    <div id='service'>
 <div id='contain'>
@@ -108,10 +109,10 @@ var [demo,setdemo]=useState(false)
         </div>
         <div id='test'>
           <h1>''</h1>
-          <p>Math’s2Math’s has made learning much easier for me. The lessons are clear, engaging, and personalized, helping me understand difficult concepts and feel much more confident in my studies</p>
+          <p>Maths2Maths has been teaching my daughter since Grade 6. She is now in Grade 8 and has become much more confident in Maths, with significant improvement in her understanding, skills, and performance.</p>
           <div id='lower'>
-            <img src={priya}></img>
-            <h1>Priya K.</h1>
+            <img src={np}></img>
+            <h1>Jagdeep S.</h1>
           </div>
         </div>
         <div id='test'>
@@ -119,9 +120,10 @@ var [demo,setdemo]=useState(false)
           <p>The teaching approach is excellent and easy to follow. My child receives individual attention, understands concepts better, and has become more confident and consistent with schoolwork and exams.</p>
           <div id='lower'>
             <img src={priya}></img>
-            <h1>Sneha M.</h1>
+            <h1>Priya K.</h1>
           </div>
         </div>
+        
       </div>
     </section></>:
     <>
@@ -129,7 +131,7 @@ var [demo,setdemo]=useState(false)
     <section id='contact'>
       
       <div id='left'>
-        <h1 id='ctop'>Contact Maths2Maths</h1>
+        <h1 id='ctop'>Contact Us</h1>
         <h1 id='tags'>We're here to help!</h1>
         <hr></hr>
         <p>Have questions or want to book a free class?<br></br>
@@ -167,7 +169,7 @@ var [demo,setdemo]=useState(false)
 <i class="fa-brands fa-whatsapp"></i>
         <i class="fa-brands fa-youtube"></i>
       </div>
-      <p> © 2026 Maths2Maths Tuition Center. All rights reserved</p>
+      <p> @ 2026 Bright Future Tuition Center. All rights reserved</p>
     </section>
     <h1 id='love'>Made with <i class="fa-solid fa-heart" style={{color: 'rgb(255, 1, 1)'}}></i> by <a href='https://jasmehsidhu.onrender.com/'> Jasmeh </a></h1>
 </section>
