@@ -169,7 +169,7 @@ var [demo,setdemo]=useState(false)
 <i class="fa-brands fa-whatsapp"></i>
         <i class="fa-brands fa-youtube"></i>
       </div>
-      <p> @ 2026 Bright Future Tuition Center. All rights reserved</p>
+      <p> @ 2026 Maths2Maths Tuition Center. All rights reserved</p>
     </section>
     <h1 id='love'>Made with <i class="fa-solid fa-heart" style={{color: 'rgb(255, 1, 1)'}}></i> by <a href='https://jasmehsidhu.onrender.com/'> Jasmeh </a></h1>
 </section>
