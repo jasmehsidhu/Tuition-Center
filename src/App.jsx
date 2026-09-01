@@ -165,7 +165,7 @@ var [demo,setdemo]=useState(false)
     <section id='footer'>
       <div id='links'>
 <i class="fa-brands fa-instagram"></i>
-<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-whatsapp" onClick={()=>{window.open('https://wa.me/918141167939')}}></i>
         <i class="fa-brands fa-youtube"></i>
       </div>
       <p> © 2026 Maths2Maths Tuition Center. All rights reserved</p>
