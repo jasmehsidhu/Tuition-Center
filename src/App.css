@@ -294,7 +294,7 @@ padding:15px
 }
 @media (max-width: 768px) {
   #tagl{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 900;
   }
     #tagl2{
@@ -308,7 +308,7 @@ padding:15px
     font-size: 10px;
   }
   #links>i{
-    font-size: 20px;
+    font-size: 15px;
   }
   #links{
     gap:10px
@@ -368,6 +368,7 @@ padding:15px
    }
    #sdis{
     font-size: 10px;
+    width:200px
    }
    #main{
     background:url('./assets/banner.png');
@@ -388,7 +389,7 @@ padding:15px
     font-size: 10px;
    }
    #sdis{
-    width:400px
+    width:300px
    }
    #logo{
     width:100px;
