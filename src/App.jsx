@@ -112,15 +112,16 @@ var [demo,setdemo]=useState(false)
           <p>Maths2Maths has been teaching my daughter since Grade 6. She is now in Grade 8 and has become much more confident in Maths, with significant improvement in her understanding, skills, and performance.</p>
           <div id='lower'>
             <img src={np}></img>
-            <h1>Priya K.</h1>
+            <h1>Jagdeep S.</h1>
           </div>
         </div>
         <div id='test'>
           <h1>''</h1>
-          <p>The teaching approach is excellent and easy to follow. My child receives individual attention, understands concepts better, and has become more confident and consistent with schoolwork and exams.</p>
+          <p>We are very happy with Naman’s learning experience at Maths2Maths Tuition Center. Her math skills, understanding, and confidence have improved significantly. She enjoys learning math much more now. Highly recommended!
+ </p>
           <div id='lower'>
             <img src={priya}></img>
-            <h1>Sneha M.</h1>
+            <h1>Naman</h1>
           </div>
         </div>
       </div>
@@ -143,7 +144,7 @@ var [demo,setdemo]=useState(false)
         </div>
          <div id='cons'>
           <i className="fa-solid fa-envelope" style={{color: 'rgb(20, 46, 98)'}}></i>
-          <p>abhishekrajveer0011@gmail.com</p>
+          <p>maths2mathsx@gmail.com</p>
         </div>
          <div id='cons'>
           <i className="fa-solid fa-location-dot" style={{color: 'rgb(20, 46, 98)'}}></i>
