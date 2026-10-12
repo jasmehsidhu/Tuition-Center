@@ -120,7 +120,7 @@ var [demo,setdemo]=useState(false)
           <p>We are very happy with Naman’s learning experience at Maths2Maths Tuition Center. Her math skills, understanding, and confidence have improved significantly. She enjoys learning math much more now. Highly recommended!
  </p>
           <div id='lower'>
-            <img src={priya}></img>
+            <img src={np}></img>
             <h1>Naman</h1>
           </div>
         </div>
